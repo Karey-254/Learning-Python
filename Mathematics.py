@@ -11,3 +11,15 @@ print('modular float:', mod_floats)
 print('answer:', mod_ints * mod_floats)
 print('Exponential:',mod_ints ** mod_floats ) 
 print('floor:', mod_floats // mod_ints) # gives an integer equal to or less than the highest integrer
+my_int_1 = 56
+my_int_2 = 12
+
+my_float_1 = 5.4
+my_float_2 = 12.0
+
+exp_ints = my_int_1 ** my_int_2
+exp_floats = my_float_1 ** my_float_2
+print('exponential integer:',exp_ints)
+print('exponential float:',exp_floats)
+print('floor int:',my_int_1 //my_int_2) #floor it
+print('Modulo int:', my_int_1 % my_int_2) #Modulo it
