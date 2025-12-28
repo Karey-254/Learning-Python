@@ -40,3 +40,52 @@ print(my_var)
 print(my_var + 10)
 print(my_var / 5)
 print(my_var // my_var_1) #flooring
+
+
+#agumented addition
+my_var = 10
+my_var += 5 #put the operation before the = sign to avoid repetition
+print(my_var)
+
+
+#agumented substration
+count = 14
+count -= 3  # Right from the left
+print(count)
+
+
+#agumented multiplication
+product = 65
+product *= 7 #left variable with the rigt
+print(product)
+
+
+#agumented division
+price = 100
+price /= 4 #divides the left variable by the right
+print(price)
+
+
+#agumented modulo
+bits = 35
+bits %= 2 # computes the reminder of the left variable divided by the right
+print(bits)
+
+
+#agumented floor
+total_pages = 23
+total_pages //= 5 # divides the left variable by the right and puts the answer to the left
+print(total_pages)
+
+
+#agumented exponential
+power = 2
+power **= 3 #raises the right variable to the left variable
+print(power)
+
+#agumented strings
+greet = 'Hello'
+greet += 'world'
+print(greet)
+greet *3= 'Hello'
+print(greet)
