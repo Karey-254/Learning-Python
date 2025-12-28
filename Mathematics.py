@@ -80,12 +80,18 @@ print(total_pages)
 
 #agumented exponential
 power = 2
-power **= 3 #raises the right variable to the left variable
 print(power)
 
 #agumented strings
 greet = 'Hello'
 greet += 'world'
 print(greet)
-greet *3= 'Hello'
-print(greet)
+
+#Boolean
+print(17 > 22) # False
+print(17 < 22) # True
+print(17 == 22) # False
+print(22 == 22) # True
+print(17 != 22) # True
+print(17 >= 22) # False
+print(17 <= 22) 
