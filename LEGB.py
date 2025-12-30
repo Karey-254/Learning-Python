@@ -34,3 +34,13 @@ def outer_func():
     print(res)  # Now res is accessible and modified
 
 outer_func()
+
+#Global Scope
+
+my_var = 17
+
+def show_var():
+    print(my_var)
+
+show_var() # 17
+print(my_var) # 17
