@@ -18,3 +18,19 @@ def outer_func():
     inner_func()
 
 outer_func() # Hello !Karey
+
+#Enclosing Scope expounded
+
+def outer_func():
+    msg = 'Hello Karey-254!'
+    res = ""  # Declare res in the enclosing scope
+
+    def inner_func():
+        nonlocal res  # Allow modification of an enclosing variable
+        res = 'How are you darling?'
+        print(msg)  # Accessing msg from outer_func()
+
+    inner_func()
+    print(res)  # Now res is accessible and modified
+
+outer_func()
