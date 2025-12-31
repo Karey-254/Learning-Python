@@ -95,3 +95,9 @@ print(22 == 22) # True
 print(17 != 22) # True
 print(17 >= 22) # False
 print(17 <= 22) 
+
+#agumented division review
+
+price = 15000000
+price /= 100 #divides the left variable by the right
+print(price)
