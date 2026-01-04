@@ -19,3 +19,17 @@ from datetime import datetime
 
 # variables
 print(f'The date and time is {datetime.now()}')
+
+# Function definitions
+
+def add_one_and_one():
+    x = 1 + 1
+    print(x)
+
+def roll_dice():
+    print(f'You rolled a {4}')
+
+#Put code to run under here
+print(f'The date and time is {datetime.now()}')
+roll_dice()
+     
