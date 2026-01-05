@@ -41,4 +41,7 @@ from random import randint
 def roll_dice():
     print(f'You rolled a {randint (1,6)}')
 
-     
+def roll_dice():
+    roll = 'randint(1,6)'
+    print(f'You rolled a {roll} {fire * roll}')
+       
