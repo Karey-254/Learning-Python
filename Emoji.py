@@ -32,4 +32,13 @@ def roll_dice():
 #Put code to run under here
 print(f'The date and time is {datetime.now()}')
 roll_dice()
+
+# imports
+from datetime import datetime
+from random import randint
+
+#Function definitions
+def roll_dice():
+    print(f'You rolled a {randint (1,6)}')
+
      
