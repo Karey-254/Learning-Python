@@ -44,4 +44,10 @@ def roll_dice():
 def roll_dice():
     roll = 'randint(1,6)'
     print(f'You rolled a {roll} {fire * roll}')
-       
+     #Input
+def roll_dice():
+    max = input('How many sides on your dice?:')
+    print(f'That is a D {max}')
+    roll = randint(1,6)
+    print(f'You rolled a {roll} {fire * roll}')
+    
