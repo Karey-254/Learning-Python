@@ -51,3 +51,11 @@ def roll_dice():
     roll = randint(1,6)
     print(f'You rolled a {roll} {fire * roll}')
     
+   #Try out again
+roll_dice()
+print(f'I 💛 ')
+print(f'...makes me 😊')
+print(f'I would like to make...with{python}')
+
+
+
