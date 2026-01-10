@@ -23,7 +23,12 @@ def draw():
     fill('lightgreen')
     rect(0, 250, 400, 150)
     fill('sienna')
-    triangle(150, 350, 200, 150, 250, 350)
-
+    triangle(150, 350, 200, 150, 250, 350)  
+    fill('blue')
+    circle(200, 200, 170)
+    fill('red')
+    circle(200, 200, 110)
+    fill('yellow')
+    circle(200, 200, 30)
 # Keep this to run your code
 run(frame_rate=2)
