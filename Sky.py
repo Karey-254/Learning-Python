@@ -7,6 +7,11 @@ from random import randint
 
 
 # The shoot_arrow function goes here
+def shoot_arrow():
+    arrow_x = 200
+    arrow_y = 200
+    fill('sienna')
+    circle(arrow_x, arrow_y, 15)
 
 
 
