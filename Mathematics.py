@@ -101,3 +101,9 @@ print(17 <= 22)
 price = 15000000
 price /= 100 #divides the left variable by the right
 print(price)
+
+price = 10000000000
+price / = 1000
+
+print(price)
+
