@@ -103,7 +103,10 @@ price /= 100 #divides the left variable by the right
 print(price)
 
 price = 10000000000
-price / = 1000
+price /= 1000
 
 print(price)
 
+purpose = 14000
+purpose *= 100
+print(purpose)
