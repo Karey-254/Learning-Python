@@ -110,3 +110,7 @@ print(price)
 purpose = 14000
 purpose *= 100
 print(purpose)
+
+Airbae = 100000
+Airbae *= 30 #flights per month
+print(Airbae)
