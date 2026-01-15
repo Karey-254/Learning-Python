@@ -8,8 +8,8 @@ from random import randint
 
 # The shoot_arrow function goes here
 def shoot_arrow():
-    arrow_x = 200
-    arrow_y = 200
+    arrow_x = randint(100,300)
+    arrow_y = randint(100,300)
     fill('sienna')
     circle(arrow_x, arrow_y, 15)
 
@@ -35,5 +35,6 @@ def draw():
     circle(200, 200, 110)
     fill('yellow')
     circle(200, 200, 30)
+    shoot_arrow()
 # Keep this to run your code
 run(frame_rate=2)
