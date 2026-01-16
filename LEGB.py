@@ -27,7 +27,7 @@ def outer_func():
 
     def inner_func():
         nonlocal res  # Allow modification of an enclosing variable
-        res = 'How are you darling?'
+        res = 'How are you, darling?'
         print(msg)  # Accessing msg from outer_func()
 
     inner_func()
