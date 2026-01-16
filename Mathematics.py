@@ -10,7 +10,7 @@ print('modular integers:',  mod_ints ) # divides two numbers from the left to ri
 print('modular float:', mod_floats)
 print('answer:', mod_ints * mod_floats)
 print('Exponential:',mod_ints ** mod_floats ) 
-print('floor:', mod_floats // mod_ints) # gives an integer equal to or less than the highest integrer
+print('floor:', mod_floats // mod_ints) # gives an integer equal to or less than the highest integer
 
 # Problem 2
 my_int_1 = 56
@@ -26,14 +26,14 @@ print('exponential float:',exp_floats)
 print('floor int:',my_int_1 //my_int_2) #floor it
 print('Modulo int:', my_int_1 % my_int_2) #Modulo it
 
-# Problem 3 augemented
+# Problem 3 augmented
 my_var = 10
 my_var += 5
 print(my_var)
 print(my_var + 10)
 print(my_var / 5)
 
-# Problem 4 augemented
+# Problem 4 augmented
 my_var = 113
 my_var_1 = 10
 print(my_var)
@@ -42,7 +42,7 @@ print(my_var / 5)
 print(my_var // my_var_1) #flooring
 
 
-#agumented addition
+# augmented addition
 my_var = 10
 my_var += 5 #put the operation before the = sign to avoid repetition
 print(my_var)
@@ -54,13 +54,13 @@ count -= 3  # Right from the left
 print(count)
 
 
-#agumented multiplication
+# augmented multiplication
 product = 65
-product *= 7 #left variable with the rigt
+product *= 7 #left variable with the right.
 print(product)
 
 
-#agumented division
+# augmented division
 price = 100
 price /= 4 #divides the left variable by the right
 print(price)
@@ -68,21 +68,21 @@ print(price)
 
 #agumented modulo
 bits = 35
-bits %= 2 # computes the reminder of the left variable divided by the right
+bits %= 2 # computes the remainder of the left variable divided by the right
 print(bits)
 
 
-#agumented floor
+# augmented floor
 total_pages = 23
 total_pages //= 5 # divides the left variable by the right and puts the answer to the left
 print(total_pages)
 
 
-#agumented exponential
+# augmented exponential
 power = 2
 print(power)
 
-#agumented strings
+# augmented strings
 greet = 'Hello'
 greet += 'world'
 print(greet)
@@ -96,7 +96,7 @@ print(17 != 22) # True
 print(17 >= 22) # False
 print(17 <= 22) 
 
-#agumented division review
+# augmented division review
 
 price = 15000000
 price /= 100 #divides the left variable by the right
