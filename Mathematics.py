@@ -114,3 +114,8 @@ print(purpose)
 Airbae = 100000
 Airbae *= 30 #flights per month
 print(Airbae)
+
+Fiti = 1000 #commission per local flight
+Fiti * = 20000 #flights per day
+
+print(Fiti)
