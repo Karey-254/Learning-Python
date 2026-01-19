@@ -1,9 +1,9 @@
-#coloring app
+# colouring app
 pos_1 = (20, 400)
 col_1 = (255,0,0)
 circle_radius = (200)#
 
-#Continue the color App
+#Continue the colour App
 circle_radius = 300
 
 pos_1 = (400, 20)
