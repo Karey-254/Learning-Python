@@ -3,6 +3,14 @@ from p5 import *
 from random import randint
 
 # The mouse_pressed function goes here
+def mouse_pressed():
+    # print('🎯')
+    if hit_colour == Color('blue').hex:
+        print('You hit the outer circle, 50 points!')
+    elif hit_colour == Color('red').hex:
+        print('You hit the inner circle, 200 points!')
+    elif hit_colour == Color('yellow').hex:
+        print('You hit the middle, 500 points!')
 
 
 
