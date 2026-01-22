@@ -4,6 +4,7 @@ alphabet = "abcdefghijklmnopqrstuvwxyz"
 
 #Review
 string_3 = 'Hello Wangari'
+string_4 = 'Nairobi'
  
 Print (string_3)
 
