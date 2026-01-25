@@ -4,3 +4,6 @@
 
 Duolingo = green
 print(Duolingo)
+
+Duolingos = 880
+print(Duolingos)
