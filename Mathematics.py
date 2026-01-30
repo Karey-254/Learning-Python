@@ -122,3 +122,7 @@ Fiti * = 20000 #flights per day
 print(Fiti)
 =======
 >>>>>>> 3dc47df2d7eb50a8947b6065dc87b27bdab2a44e
+
+Fiti = 1500 #commission per local flight
+Fit * = 50000 #flights per day
+print(Fiti * 30) #income in a month
