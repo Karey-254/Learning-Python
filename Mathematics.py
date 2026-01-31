@@ -126,3 +126,8 @@ print(Fiti)
 Fiti = 1500 #commission per local flight
 Fit * = 50000 #flights per day
 print(Fiti * 30) #income in a month
+
+
+Shuru = 100 #fee per transaction
+Shuru * = 1000000 #Nil filing
+print(Shuru)
