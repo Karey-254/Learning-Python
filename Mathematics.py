@@ -131,3 +131,7 @@ print(Fiti * 30) #income in a month
 Shuru = 100 #fee per transaction
 Shuru * = 1000000 #Nil filing
 print(Shuru)
+
+karey = 50 #per potato
+karey * = 200
+print(Karey)
