@@ -114,17 +114,10 @@ print(purpose)
 Airbae = 100000
 Airbae *= 30 #flights per month
 print(Airbae)
-<<<<<<< HEAD
 
 Fiti = 1000 #commission per local flight
-Fiti * = 20000 #flights per day
-
-print(Fiti)
-=======
->>>>>>> 3dc47df2d7eb50a8947b6065dc87b27bdab2a44e
-
 Fiti = 1500 #commission per local flight
-Fit * = 50000 #flights per day
+Fiti * = 50000 #flights per day
 print(Fiti * 30) #income in a month
 
 
@@ -135,3 +128,7 @@ print(Shuru)
 karey = 50 #per potato
 karey * = 200
 print(Karey)
+
+Essential = 500 #profit per item
+Essential * = 20 # items sold weekly
+print(Essential)
