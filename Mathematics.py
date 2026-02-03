@@ -132,3 +132,8 @@ print(Karey)
 Essential = 500 #profit per item
 Essential * = 20 # items sold weekly
 print(Essential)
+
+Droid = 129000 #Entry fee
+Droid * = 1000 #number of new members
+print(Droid)
+
