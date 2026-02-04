@@ -137,3 +137,6 @@ Droid = 129000 #Entry fee
 Droid * = 1000 #number of new members
 print(Droid)
 
+mama = 5000000 #pure love
+mama * = 1000000 #infinite love
+print(mama)
